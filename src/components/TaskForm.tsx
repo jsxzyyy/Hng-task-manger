@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
-import { Priority } from '../types';
+import { Priority } from '../hooks/useTasks';
 
 interface TaskFormProps {
   onAddTask: (title: string, category: string, priority: Priority, dueDate: string | null) => void;
