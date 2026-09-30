@@ -2,7 +2,7 @@
 
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
-import { useTasks } from '../hooks/useTasks';
+import  useTasks  from '../hooks/useTasks';
 
 export default function Home() {
   const { tasks, isLoaded, addTask, updateTask, deleteTask, addNoteToTask } = useTasks();
