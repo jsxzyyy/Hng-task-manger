@@ -18,3 +18,4 @@ export interface Task {
   createdAt: string;
   updatedAt: string;
 }
+ export function useTasks() { return { tasks: [], isLoaded: true, addTask: () => {}, updateTask: () => {}, deleteTask: () => {}, addNoteToTask: () => {} }; }
